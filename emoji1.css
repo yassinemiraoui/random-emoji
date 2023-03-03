@@ -1,0 +1,132 @@
+#emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.g {
+  margin-top: 1em;
+  color: azure;
+}
+
+#emoji-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#emoji {
+  font-size: 10em;
+}
+
+
+#emoji-name {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+#change-emoji {
+  font-size: 5rem;
+  border: none;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  filter: grayscale();
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+}
+#a {
+  font-size: 5rem;
+  border: none;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  filter: grayscale();
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 1em;
+}
+#user {
+  font-size: 1rem;
+  border: none;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  filter: grayscale();
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 3em;
+  margin-bottom: 2%;
+}
+
+body {
+  /*background-image: url(desktop-wallpaper-cyberpunk-city-pixel-art-artist-and-background-pixel-art-gif.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;*/
+
+  padding: 0;
+  margin: 0;
+  background: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.button a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffa12b;
+  display: block;
+  position: relative;
+  padding: 20px 40px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
